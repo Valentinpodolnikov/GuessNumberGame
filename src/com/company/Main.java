@@ -23,10 +23,11 @@ public class Main {
         int max = 0;
 
 
-
         System.out.println("Выберите уровень сложности: легкий - 1 (от 1 до 50) , средний - 2 (от 1 до 100) , тяжелый - 3 (от 1 до 500)");
 
-            complexity = input.nextInt();
+
+        complexity = input.nextInt();
+
 
         System.out.println("Введите число: ");
 
@@ -51,8 +52,7 @@ public class Main {
             }
 
 
-                userNumber = input.nextInt();
-
+            userNumber = input.nextInt();
 
 
             if (userNumber == 17) {
